@@ -1,0 +1,17 @@
+2019-04-28 11:22:31.680  INFO 5196 --- [main] com.li.demo.SpringbootAopApplication     : Starting SpringbootAopApplication on licenfeng with PID 5196 (D:\IDEAWorkspace_bposServer\springboot_aop\target\classes started by user in D:\IDEAWorkspace_bposServer\springboot_aop)
+2019-04-28 11:22:31.685  INFO 5196 --- [main] com.li.demo.SpringbootAopApplication     : No active profile set, falling back to default profiles: default
+2019-04-28 11:22:34.012  INFO 5196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-04-28 11:22:34.059  INFO 5196 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-28 11:22:34.060  INFO 5196 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-28 11:22:34.396  INFO 5196 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-28 11:22:34.397  INFO 5196 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2635 ms
+2019-04-28 11:22:34.902  INFO 5196 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-28 11:22:35.276  INFO 5196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-28 11:22:35.282  INFO 5196 --- [main] com.li.demo.SpringbootAopApplication     : Started SpringbootAopApplication in 4.543 seconds (JVM running for 5.141)
+2019-04-28 11:23:32.611  INFO 5196 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-28 11:23:32.611  INFO 5196 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-04-28 11:23:32.622  INFO 5196 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2019-04-28 11:23:32.633  INFO 5196 --- [http-nio-8080-exec-1] org.apache.tomcat.util.http.Parameters   : Invalid chunk starting at byte [0] and ending at byte [1] with a value of [=] ignored
+ Note: further occurrences of Parameter errors will be logged at DEBUG level.
+2019-04-28 11:23:32.696  INFO 5196 --- [http-nio-8080-exec-1] com.li.demo.aspect.LogAspect             : PersonInfo{job='programmer,engineer', hobby='sleep', high='175', weight='null'}===========Around before=========
+2019-04-28 11:23:32.696  INFO 5196 --- [http-nio-8080-exec-1] com.li.demo.aspect.LogAspect             : PersonInfo{job='programmer,engineer', hobby='sleep', high='175', weight='null'}===========before=========

@@ -1,0 +1,6 @@
+server:
+   profiles:
+      active: test
+spring:
+  application:
+    name: aoplog
