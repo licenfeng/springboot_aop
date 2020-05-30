@@ -27,7 +27,7 @@ public class PersonController {
         String person = personService.getPersonInfo(personInfo);
         return person;
     }
-//logout
+
     @RequestMapping(value = "/logout" ,method = RequestMethod.POST)
     public String logout( PersonInfo personInfo){
         return personInfo.toString();
